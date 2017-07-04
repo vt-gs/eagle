@@ -177,7 +177,7 @@
 <wire x1="11.684" y1="43.688" x2="12.573" y2="42.926" width="0.254" layer="21"/>
 <wire x1="11.684" y1="42.164" x2="12.573" y2="42.926" width="0.254" layer="21"/>
 <text x="6.985" y="42.418" size="1.524" layer="21" align="top-center">Current</text>
-<text x="48.895" y="11.811" size="1.27" layer="21">INA260 Current Sensor
+<text x="43.561" y="11.811" size="1.27" layer="21">INA260 Current Sensor
 Voltage: 0-30V
 Current: 15A Cont</text>
 <text x="8.636" y="12.319" size="1.27" layer="21" align="center-right">Project:</text>
