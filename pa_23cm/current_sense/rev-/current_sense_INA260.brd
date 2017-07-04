@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -319,6 +319,54 @@ ALERT</text>
 <text x="56.642" y="20.066" size="0.762" layer="21" align="top-center">AIN</text>
 <text x="62.23" y="20.066" size="0.762" layer="21" align="top-center">+3V3</text>
 <text x="63.754" y="25.4" size="0.889" layer="21" rot="R90" align="top-center">ANALOG INPUTS</text>
+<polygon width="0.1524" layer="29">
+<vertex x="58.42" y="30.226"/>
+<vertex x="60.452" y="30.226"/>
+<vertex x="60.452" y="28.194"/>
+<vertex x="58.42" y="28.194"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="61.214" y="30.226"/>
+<vertex x="61.214" y="28.194"/>
+<vertex x="63.246" y="28.194"/>
+<vertex x="63.246" y="30.226"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="58.42" y="27.686"/>
+<vertex x="60.452" y="27.686"/>
+<vertex x="60.452" y="25.654"/>
+<vertex x="58.42" y="25.654"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="61.214" y="27.686"/>
+<vertex x="63.246" y="27.686"/>
+<vertex x="63.246" y="25.654"/>
+<vertex x="61.214" y="25.654"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="58.42" y="23.114"/>
+<vertex x="58.42" y="25.146"/>
+<vertex x="60.452" y="25.146"/>
+<vertex x="60.452" y="23.114"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="61.214" y="23.114"/>
+<vertex x="61.214" y="25.146"/>
+<vertex x="63.246" y="25.146"/>
+<vertex x="63.246" y="23.114"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="58.42" y="20.574"/>
+<vertex x="58.42" y="22.606"/>
+<vertex x="60.452" y="22.606"/>
+<vertex x="60.452" y="20.574"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="61.214" y="20.574"/>
+<vertex x="61.214" y="22.606"/>
+<vertex x="63.246" y="22.606"/>
+<vertex x="63.246" y="20.574"/>
+</polygon>
 </plain>
 <libraries>
 <library name="vtgs">
