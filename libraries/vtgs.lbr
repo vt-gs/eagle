@@ -276,6 +276,68 @@ Source: http://www.linear.com .. LT1996</description>
 <wire x1="1" y1="0.875" x2="-1" y2="0.875" width="0.127" layer="21"/>
 <wire x1="1" y1="0.875" x2="1" y2="-0.875" width="0.127" layer="21"/>
 </package>
+<package name="DECOTEC_102030-001A">
+<description>DECOTEC Enclosure,
+Low Band Exciter,
+Part Number:  102030-001 Revision A</description>
+<wire x1="6.985" y1="0" x2="6.985" y2="69.85" width="0.127" layer="20"/>
+<wire x1="6.985" y1="69.85" x2="113.665" y2="69.85" width="0.127" layer="20"/>
+<wire x1="113.665" y1="69.85" x2="113.665" y2="0" width="0.127" layer="20"/>
+<wire x1="113.665" y1="0" x2="6.985" y2="0" width="0.127" layer="20"/>
+<pad name="PAD1" x="10.31875" y="3.175" drill="3.048" diameter="5.334"/>
+<pad name="PAD2" x="10.31875" y="66.675" drill="3.048" diameter="5.334"/>
+<pad name="PAD3" x="110.33125" y="66.675" drill="3.048" diameter="5.334"/>
+<pad name="PAD4" x="110.33125" y="3.175" drill="3.048" diameter="5.334"/>
+<wire x1="6.35" y1="0" x2="0" y2="0" width="0.254" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="69.85" width="0.254" layer="51"/>
+<wire x1="0" y1="69.85" x2="6.35" y2="69.85" width="0.254" layer="51"/>
+<wire x1="114.3" y1="69.85" x2="120.65" y2="69.85" width="0.254" layer="51"/>
+<wire x1="120.65" y1="69.85" x2="120.65" y2="0" width="0.254" layer="51"/>
+<wire x1="120.65" y1="0" x2="114.3" y2="0" width="0.254" layer="51"/>
+<text x="13.97" y="0" size="1.27" layer="21">Decotec Enclosure, Part #:102030-001 Rev. A</text>
+<text x="118.11" y="34.925" size="1.27" layer="51" rot="R90" align="top-center">FRONT</text>
+<text x="0.127" y="34.925" size="1.27" layer="51" rot="R90" align="top-center">BACK</text>
+<text x="69.85" y="-1.27" size="1.27" layer="51" align="top-center">4-40 Screw Hole</text>
+<rectangle x1="68.58" y1="-0.635" x2="71.12" y2="0.635" layer="51"/>
+<rectangle x1="119.38" y1="18.415" x2="121.92" y2="19.685" layer="51" rot="R90"/>
+<rectangle x1="120.015" y1="26.3779" x2="121.285" y2="30.7721" layer="51"/>
+<rectangle x1="120.015" y1="35.9029" x2="121.285" y2="40.2971" layer="51"/>
+<rectangle x1="120.015" y1="48.41875" x2="121.285" y2="59.53125" layer="51"/>
+<text x="121.92" y="19.05" size="1.27" layer="51" align="center-left">4-40</text>
+<text x="121.92" y="28.575" size="1.27" layer="51" align="center-left">8-32</text>
+<text x="121.92" y="38.1" size="1.27" layer="51" align="center-left">8-32</text>
+</package>
+<package name="DECOTEC_102040-002B">
+<wire x1="0" y1="0" x2="0" y2="69.85" width="0.127" layer="20"/>
+<wire x1="0" y1="69.85" x2="69.85" y2="69.85" width="0.127" layer="20"/>
+<wire x1="69.85" y1="69.85" x2="69.85" y2="0" width="0.127" layer="20"/>
+<wire x1="69.85" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
+<pad name="P$1" x="3.96875" y="3.175" drill="3.048" diameter="5.334"/>
+<pad name="P$2" x="3.96875" y="66.675" drill="3.048" diameter="5.334"/>
+<pad name="P$3" x="66.675" y="45.24375" drill="3.048" diameter="5.334"/>
+<pad name="P$4" x="66.675" y="24.60625" drill="3.048" diameter="5.334"/>
+<text x="7.62" y="0" size="1.27" layer="21">Decotec Enclosure, Part #:102040-002 Rev. B</text>
+<rectangle x1="69.215" y1="55.959375" x2="70.485" y2="67.071875" layer="51"/>
+<rectangle x1="69.215" y1="2.778125" x2="70.485" y2="13.890625" layer="51"/>
+<circle x="21.43125" y="8.73125" radius="2.5797" width="0.127" layer="51"/>
+<text x="21.43125" y="8.73125" size="2.54" layer="51" align="center">H</text>
+<circle x="12.7" y="57.94375" radius="2.5797" width="0.127" layer="51"/>
+<text x="12.7" y="57.94375" size="2.54" layer="51" align="center">H</text>
+<circle x="20.6375" y="57.94375" radius="2.5797" width="0.127" layer="51"/>
+<text x="20.6375" y="57.94375" size="2.54" layer="51" align="center">H</text>
+<rectangle x1="-0.635" y1="23.01875" x2="0.635" y2="26.19375" layer="51"/>
+<rectangle x1="-0.635" y1="55.959375" x2="0.635" y2="59.134375" layer="51"/>
+<rectangle x1="-0.635" y1="43.259375" x2="0.635" y2="46.434375" layer="51"/>
+<rectangle x1="-0.635" y1="10.715625" x2="0.635" y2="13.096875" layer="51"/>
+<text x="-2.54" y="57.534175" size="2.54" layer="51" align="center-right">8-32</text>
+<text x="-2.54" y="44.834175" size="2.54" layer="51" align="center-right">8-32</text>
+<text x="-2.54" y="24.514175" size="2.54" layer="51" align="center-right">8-32</text>
+<text x="-2.54" y="11.814175" size="2.54" layer="51" align="center-right">4-40</text>
+<text x="72.39" y="61.344175" size="2.54" layer="51" align="center-left">7/16 in
+BNC Panel</text>
+<text x="72.39" y="8.004175" size="2.54" layer="51" align="center-left">7/16 in
+BNC Panel</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADS1015">
@@ -483,6 +545,34 @@ TEMP: -40-125C</text>
 <text x="-10.16" y="10.16" size="1.27" layer="94" align="top-left">&gt;Name</text>
 <text x="-10.16" y="-10.16" size="1.27" layer="94">&gt;Value</text>
 </symbol>
+<symbol name="DECOTEC_102030-001A">
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.27" layer="94" align="top-center">DECOTEC
+Enclosure Board Outline
+Low Band Exciter
+PART #: 102030-001 Rev. A</text>
+<pin name="P1" x="-5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="P2" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="P3" x="2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="P4" x="5.08" y="-12.7" length="middle" rot="R90"/>
+</symbol>
+<symbol name="DECOTEC_102040-002B">
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.27" layer="94" align="top-center">DECOTEC
+Enclosure Board Outline
+Low Band Power Sensor
+PART #: 102040-002 Rev. B</text>
+<pin name="P1" x="-5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="P2" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="P3" x="2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="P4" x="5.08" y="-12.7" length="middle" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADS1015" prefix="U" uservalue="yes">
@@ -619,6 +709,42 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <connect gate="G$1" pin="NC@5" pad="5"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
 <connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DECOTEC_102030-001A">
+<gates>
+<gate name="G$1" symbol="DECOTEC_102030-001A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DECOTEC_102030-001A">
+<connects>
+<connect gate="G$1" pin="P1" pad="PAD1"/>
+<connect gate="G$1" pin="P2" pad="PAD2"/>
+<connect gate="G$1" pin="P3" pad="PAD3"/>
+<connect gate="G$1" pin="P4" pad="PAD4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DECOTEC_102040-002B">
+<gates>
+<gate name="G$1" symbol="DECOTEC_102040-002B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DECOTEC_102040-002B">
+<connects>
+<connect gate="G$1" pin="P1" pad="P$1"/>
+<connect gate="G$1" pin="P2" pad="P$2"/>
+<connect gate="G$1" pin="P3" pad="P$3"/>
+<connect gate="G$1" pin="P4" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
