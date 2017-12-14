@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 03 01"
+Version="08 05 00"
 Platform="Linux"
 Globals="Globals"
 Desktop="Desktop"
@@ -385,11 +385,10 @@ UsedLibrary="/home/zleffke/github/vtgs/eagle/libraries/vtgs.lbr"
 UsedLibrary="/home/zleffke/workspace/mac7/eagle/lib/mac7.lbr"
 UsedLibrary="/home/zleffke/github/zleffke/eaglecad/lib/kj4qlp.lbr"
 UsedLibrary="/home/zleffke/Downloads/eagle-8.2.2/lbr/texas-ads1293.lbr"
+UsedLibrary="/home/zleffke/github/public_eagle/libraries/microbuilder.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 24 799 663"
-State=2
 Number=0
 
 [Desktop]
