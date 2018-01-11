@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -934,6 +934,28 @@ Part Number:  102030-001 Revision A</description>
 <text x="121.92" y="28.575" size="1.27" layer="51" align="center-left">8-32</text>
 <text x="121.92" y="38.1" size="1.27" layer="51" align="center-left">8-32</text>
 </package>
+<package name="KA278RXXCTU">
+<smd name="1" x="-18" y="3.81" dx="10" dy="1.5" layer="1"/>
+<smd name="2" x="-18" y="1.27" dx="10" dy="1.5" layer="1"/>
+<smd name="3" x="-18" y="-1.27" dx="10" dy="1.5" layer="1"/>
+<smd name="4" x="-18" y="-3.81" dx="10" dy="1.5" layer="1"/>
+<wire x1="-12.3" y1="5.5" x2="-3" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="5.5" x2="3.4" y2="5.5" width="0.127" layer="21"/>
+<wire x1="3.4" y1="5.5" x2="3.4" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-5.5" x2="-3" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-5.5" x2="-12.3" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-12.3" y1="-5.5" x2="-12.3" y2="5.5" width="0.127" layer="21"/>
+<hole x="0" y="0" drill="3.2"/>
+<wire x1="-3" y1="5.5" x2="-3" y2="-5.5" width="0.127" layer="21"/>
+<rectangle x1="-15.6" y1="3.175" x2="-12.3" y2="4.445" layer="51"/>
+<rectangle x1="-15.6" y1="0.635" x2="-12.3" y2="1.905" layer="51"/>
+<rectangle x1="-15.6" y1="-1.905" x2="-12.3" y2="-0.635" layer="51"/>
+<rectangle x1="-15.6" y1="-4.445" x2="-12.3" y2="-3.175" layer="51"/>
+<rectangle x1="-22" y1="3.4925" x2="-15.6" y2="4.1275" layer="51"/>
+<rectangle x1="-22" y1="0.9525" x2="-15.6" y2="1.5875" layer="51"/>
+<rectangle x1="-22" y1="-1.5875" x2="-15.6" y2="-0.9525" layer="51"/>
+<rectangle x1="-22" y1="-4.1275" x2="-15.6" y2="-3.4925" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADS1015">
@@ -1405,6 +1427,18 @@ PART #: 102460-001 Rev. A</text>
 <text x="-7.62" y="24.13" size="1.27" layer="94">&gt;Name</text>
 <text x="-7.62" y="-27.94" size="1.27" layer="94">&gt;Value</text>
 </symbol>
+<symbol name="KA278RXXCTU">
+<pin name="VIN" x="-12.7" y="2.54" length="short"/>
+<pin name="VDIS" x="-12.7" y="-2.54" length="short"/>
+<pin name="GND" x="0" y="-7.62" length="short" rot="R90"/>
+<pin name="VOUT" x="12.7" y="2.54" length="short" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="94">&gt;NAME</text>
+<text x="-10.16" y="7.62" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADS1015" prefix="U" uservalue="yes">
@@ -1800,6 +1834,24 @@ I&lt;sup&gt;2&lt;/sup&gt;C interface&lt;br&gt;
 <connect gate="G$1" pin="TCT" pad="3"/>
 <connect gate="G$1" pin="TX+" pad="1"/>
 <connect gate="G$1" pin="TX-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KA278RXXCTU" prefix="VR">
+<gates>
+<gate name="G$1" symbol="KA278RXXCTU" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="KA278RXXCTU">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VDIS" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
